@@ -1,0 +1,109 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("./src/Ashesi.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #222;
+}
+
+.login-container,
+.register-container,
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 35px 30px;
+  border-radius: 16px;
+  width: 340px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  color: #3182bd;
+  margin-bottom: 1.2em;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+input[type="text"],
+input[type="username"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: 1px solid #2c7fb8;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #e6550d;
+  outline: none;
+  box-shadow: 0 0 5px rgba(230, 85, 13, 0.4);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #3182bd;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #225ea8;
+  transform: scale(1.03);
+}
+
+.toggle-link {
+  display: block;
+  margin-top: 14px;
+  color: #e6550d;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.toggle-link:hover {
+  text-decoration: underline;
+  color: #c0392b;
+}
+
+@media (max-width: 400px) {
+  .login-container,
+  .register-container,
+  .container {
+    width: 90%;
+    padding: 25px;
+  }
+}

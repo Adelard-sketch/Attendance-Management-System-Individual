@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Register - Attendance Portal</title>
+<link rel="stylesheet" href="Register.css">
+</head>
+<body>
+<div class="register-container">
+  <h2>Create Account</h2>
+  <form id="registerForm">
+    <input type="text" name="fullname" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="username" placeholder="Username" required>
+    <select name="role" required>
+      <option value="">Select Role</option>
+      <option value="student">Student</option>
+      <option value="lecturer">Lecturer</option>
+      <option value="intern">Faculty Intern</option>
+    </select>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+    <button type="submit">Register</button>
+    <a href="Login.html">Already have an account? Login</a>
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

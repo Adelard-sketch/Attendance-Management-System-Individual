@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="Dashboard.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Attendance Management System - Faculty Intern Dashboard</h1>
+  </header>
+
+
+<nav>
+  <a href="#" class="active" data-section="courses">Course List</a>
+  <a href="#" data-section="sessions">Sessions</a>
+  <a href="#" data-section="reports">Reports</a>
+  <a href="#" data-section="auditors">Auditors/Observers</a>
+  <a href="Index.html">Logout</a>
+</nav>
+
+  <main>
+    <aside>
+      <h2>Quick Actions</h2>
+      <ul>
+        <li><a href="#">Add New Session</a></li>
+        <li><a href="#">View Attendance</a></li>
+        <li><a href="#">Upload Report</a></li>
+      </ul>
+    </aside>
+
+    <section id="dashboard-content">
+      <!-- Dynamic content will load here -->
+      <h2>Course List</h2>
+      <div id="table-container"></div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    © 2025 Ashesi University
+  </footer>
+
+  <!-- script-->
+  <script src="script.js"></script>
+</body>
+</html>

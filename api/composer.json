@@ -1,0 +1,16 @@
+{
+    "name": "borauzima.adelard/api",
+    "autoload": {
+        "psr-4": {
+            "BorauzimaAdelard\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "API for Ashesi Attendance Management Portal"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.19"
+    }
+}

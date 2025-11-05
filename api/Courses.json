@@ -1,0 +1,100 @@
+{
+  "courses": [
+    {
+      "code": "CS101",
+      "name": "Web Technologies",
+      "faculty": "Dr. Alain",
+      "students": 48
+    },
+    {
+      "code": "CS202",
+      "name": "Hardware Systems",
+      "faculty": "Prof. Zahra",
+      "students": 39
+    },
+    {
+      "code": "CS310",
+      "name": "Leadership 2",
+      "faculty": "Dr. Adelard",
+      "students": 42
+    },
+    {
+      "code": "CS333",
+      "name": "Algorithms",
+      "faculty": "Dr. Kevin",
+      "students": 480
+    },
+    {
+      "code": "MA204",
+      "name": "Calculus",
+      "faculty": "Prof. John",
+      "students": 390
+    },
+    {
+      "code": "CS110",
+      "name": "Economics",
+      "faculty": "Dr. Salah",
+      "students": 42
+    }
+  ],
+
+  "sessions": [
+    {
+      "sessionId": "S001",
+      "course": "Calculus 1",
+      "date": "2025-10-08",
+      "status": "Completed"
+    },
+    {
+      "sessionId": "S002",
+      "course": "Design thinking",
+      "date": "2025-10-09",
+      "status": "Pending"
+    },
+    {
+      "sessionId": "S003",
+      "course": "CS310",
+      "date": "2025-10-10",
+      "status": "Ongoing"
+    }
+  ],
+
+  "reports": [
+    {
+      "reportId": "CS333",
+      "submittedBy": "Dr Asare",
+      "course": "Algorithms",
+      "date": "2025-10-08"
+    },
+    {
+      "reportId": "R002",
+      "submittedBy": "Matthew Aken",
+      "course": "CS202",
+      "date": "2025-10-09"
+    },
+    {
+      "reportId": "R003",
+      "submittedBy": "Michael Koffi",
+      "course": "Engineering Calculas",
+      "date": "2025-10-10"
+    }
+  ],
+
+  "auditors": [
+    {
+      "name": "Prof. Mensah",
+      "department": "Computer Science",
+      "email": "mensah@ashesi.edu.gh"
+    },
+    {
+      "name": "Dr. Abena",
+      "department": "Leadership",
+      "email": "abena@ashesi.edu.gh"
+    },
+    {
+      "name": "Mr. Kojo",
+      "department": "Engineering",
+      "email": "kojo@ashesi.edu.gh"
+    }
+  ]
+}

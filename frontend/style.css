@@ -1,0 +1,157 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/*nav */
+.navbar {
+  background: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.8em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.logo-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #3182bd; 
+  letter-spacing: 0.5px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e6550d; 
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+/* Hover & Active States */
+.nav-links a:hover,
+.nav-links .active {
+  color: #3182bd; 
+  transform: scale(1.05);
+}
+
+.hero {
+  background: 
+    linear-gradient(rgba(20, 0, 0, 0.6), rgba(23, 20, 20, 0.6)),
+    url("./src/Ashesi3.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2em;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 700px;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5em;
+  color:white;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 2em;
+  line-height: 1.6;
+}
+
+.btn {
+  background: #3182bd;
+  color: white;
+  border: none;
+  padding: 0.75em 2em;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #e6550d;
+  transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #e6550d;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 0.9rem;
+  color: white;
+  margin-top: auto;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-top: 0.5em;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
