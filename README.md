@@ -1,4 +1,7 @@
-# Attendance-Management-System-Group5
+# Attendance-Management-System
+
+Demo video: https://youtu.be/P11o0a4i2OQ
+
 Welcome to our project! The Attendance Management System is developed by Ashesi University students to efficiently track and manage attendance. It provides an easy-to-use platform for recording, monitoring, and analyzing attendance data.
 
 📌 Problem
